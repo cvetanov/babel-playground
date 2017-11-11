@@ -7,9 +7,15 @@
   "author": "Goce Cvetanov <cvetanovgoce@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "runner": "webpack && node ./dist/index.bundle.js"
   },
   "devDependencies": {
     "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "babel-traverse": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "babylon": "^6.18.0"
   }
 }
