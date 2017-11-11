@@ -11,6 +11,7 @@
     "runner": "webpack && node ./dist/index.bundle.js"
   },
   "devDependencies": {
+    "babel-generator": "^6.26.0",
     "webpack": "^3.8.1"
   },
   "dependencies": {
